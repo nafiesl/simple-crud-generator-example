@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f2120fa77d42a42b4210cdbe1c114e2",
+    "content-hash": "95dbe3a1e86998c631df6bfbdf3ede1a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2366,6 +2366,52 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+            "name": "luthfi/simple-crud-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "/home/nafies/www/php-packages/SimpleCrudGenerator",
+                "reference": "29e0372f74a16360807d3782b8e49873924673a3"
+            },
+            "require": {
+                "illuminate/support": "5.5.*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Luthfi\\CrudGenerator\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Luthfi\\CrudGenerator\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nafies Luthfi",
+                    "email": "nafiesl@gmail.com"
+                }
+            ],
+            "description": "A simple CRUD generator for Laravel 5.5.",
+            "time": "2017-09-24T01:07:02+00:00"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.9",
             "source": {
@@ -3828,7 +3874,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "luthfi/simple-crud-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -4,6 +4,12 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/home/nafies/www/php-packages/SimpleCrudGenerator"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
@@ -13,6 +19,7 @@
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
+        "luthfi/simple-crud-generator": "dev-master",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0"
     },
