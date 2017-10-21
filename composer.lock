@@ -2536,10 +2536,10 @@
             "source": {
                 "type": "git",
                 "url": "/home/nafies/www/php-packages/SimpleCrudGenerator",
-                "reference": "0be486ebe9a668d9f3af5d0c877b68dc63532105"
+                "reference": "9461ec1537d1546970e890c4a4b5ec8094b39cfc"
             },
             "require": {
-                "illuminate/support": "5.5.*",
+                "illuminate/support": "5.4.* || 5.5.*",
                 "laravel/browser-kit-testing": "^2.0",
                 "php": ">=7.0"
             },
@@ -2575,7 +2575,7 @@
                 }
             ],
             "description": "A simple CRUD generator for Laravel 5.5.",
-            "time": "2017-09-24T01:53:24+00:00"
+            "time": "2017-10-21T12:11:10+00:00"
         },
         {
             "name": "mockery/mockery",
