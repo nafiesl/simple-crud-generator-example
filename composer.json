@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "/home/nafies/www/php-packages/SimpleCrudGenerator"
+            "url": "https://github.com/nafiesl/SimpleCrudGenerator.git"
         }
     ],
     "require": {
@@ -20,8 +20,7 @@
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
-        "laravel/browser-kit-testing": "^2.0",
-        "luthfi/simple-crud-generator": "dev-master",
+        "luthfi/simple-crud-generator": "^0.1.0",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0"
     },
