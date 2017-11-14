@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6134e1a906deb96858ffd5a07fc66a66",
+    "content-hash": "c14057faae4f6c999e6abb453e1af035",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2532,17 +2532,11 @@
         },
         {
             "name": "luthfi/simple-crud-generator",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nafiesl/SimpleCrudGenerator.git",
-                "reference": "5c96debda786fd2bd8d4cd7979c5ce288cef8880"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/5c96debda786fd2bd8d4cd7979c5ce288cef8880",
-                "reference": "5c96debda786fd2bd8d4cd7979c5ce288cef8880",
-                "shasum": ""
+                "url": "/home/nafies/www/php-packages/SimpleCrudGenerator",
+                "reference": "d86aabad83c4407e9ac1f13bcec8af2a8f789fe6"
             },
             "require": {
                 "illuminate/support": "5.4.* || 5.5.*",
@@ -2586,11 +2580,7 @@
                 }
             ],
             "description": "A simple CRUD generator for Laravel 5.5.",
-            "support": {
-                "source": "https://github.com/nafiesl/SimpleCrudGenerator/tree/0.1.0",
-                "issues": "https://github.com/nafiesl/SimpleCrudGenerator/issues"
-            },
-            "time": "2017-10-22T12:58:00+00:00"
+            "time": "2017-11-14T09:38:29+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -4111,7 +4101,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "luthfi/simple-crud-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
