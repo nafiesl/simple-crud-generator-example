@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "06cdfe2e7868d962a4f59220321dfd47",
+    "content-hash": "55e91fc5cdd72cdf6fed968fc1ff6a04",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2136,6 +2136,105 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+            "name": "laravel/browser-kit-testing",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/browser-kit-testing.git",
+                "reference": "23f1a7eefcbca0797305b236600aa5426c9528f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/browser-kit-testing/zipball/23f1a7eefcbca0797305b236600aa5426c9528f2",
+                "reference": "23f1a7eefcbca0797305b236600aa5426c9528f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/css-selector": "~3.1",
+                "symfony/dom-crawler": "~3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\BrowserKitTesting\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Provides backwards compatibility for BrowserKit testing in Laravel 5.4.",
+            "keywords": [
+                "laravel",
+                "testing"
+            ],
+            "time": "2017-05-26T12:46:48+00:00"
+        },
+        {
+            "name": "luthfi/simple-crud-generator",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "/home/nafies/www/composer-packages/SimpleCrudGenerator",
+                "reference": "492cc49fb1fa505098259a111247535ae1221525"
+            },
+            "require": {
+                "illuminate/support": "5.3.* || 5.4.* || 5.5.*",
+                "laravel/browser-kit-testing": "^2.0",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Luthfi\\CrudGenerator\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Luthfi\\CrudGenerator\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nafies Luthfi",
+                    "email": "nafiesl@gmail.com"
+                }
+            ],
+            "description": "A simple CRUD generator for Laravel 5.5.",
+            "time": "2017-12-13T03:57:58+00:00"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.9",
             "source": {
@@ -3580,7 +3679,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "luthfi/simple-crud-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
