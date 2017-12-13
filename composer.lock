@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55e91fc5cdd72cdf6fed968fc1ff6a04",
+    "content-hash": "cf2ae722c6de04b4b2767de1a8aa2e42",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2184,11 +2184,11 @@
         },
         {
             "name": "luthfi/simple-crud-generator",
-            "version": "dev-develop",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "/home/nafies/www/composer-packages/SimpleCrudGenerator",
-                "reference": "492cc49fb1fa505098259a111247535ae1221525"
+                "reference": "28e23696a4fe27d01d3db00ecda24c353f214d33"
             },
             "require": {
                 "illuminate/support": "5.3.* || 5.4.* || 5.5.*",
@@ -2231,8 +2231,16 @@
                     "email": "nafiesl@gmail.com"
                 }
             ],
-            "description": "A simple CRUD generator for Laravel 5.5.",
-            "time": "2017-12-13T03:57:58+00:00"
+            "description": "A simple CRUD generator for Laravel 5.3, 5.4, and 5.5.",
+            "keywords": [
+                "artisan-command",
+                "crud",
+                "crud-generator",
+                "laravel-package",
+                "tdd-workflow",
+                "testing"
+            ],
+            "time": "2017-12-13T05:45:32+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -3679,9 +3687,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "luthfi/simple-crud-generator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

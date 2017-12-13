@@ -21,7 +21,7 @@
         "phpunit/phpunit": "~5.0",
         "symfony/css-selector": "3.1.*",
         "symfony/dom-crawler": "3.1.*",
-        "luthfi/simple-crud-generator": "dev-develop"
+        "luthfi/simple-crud-generator": "^0.1.7"
     },
     "autoload": {
         "classmap": [
