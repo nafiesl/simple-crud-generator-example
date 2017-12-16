@@ -4,6 +4,12 @@
 
 [![Build Status](https://travis-ci.org/nafiesl/simple-crud-generator-example.svg?branch=master)](https://travis-ci.org/nafiesl/simple-crud-generator-example)
 
-This is laravel application demo for [Simple CRUD Generator](https://packagist.org/packages/luthfi/simple-crud-generator) package usage.
+### About
+This is laravel application demo for [**Simple CRUD Generator**](https://packagist.org/packages/luthfi/simple-crud-generator) package usage.
+
+### Usage Example
+Travis CI build result on generated Testing Classes by [Simple CRUD Generator](https://packagist.org/packages/luthfi/simple-crud-generator) package :
+
+![Travis CI build result on generated Testing Classes](public/imgs/laravel-simple-crud-generator-usage-example-01.jpg "Travis CI build result on generated Testing Classes")
 
 This laravel application demo is open-sourced software licensed under the [MIT license](LICENSE).
