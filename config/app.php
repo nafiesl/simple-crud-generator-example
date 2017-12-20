@@ -168,6 +168,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Luthfi\FormField\FormFieldServiceProvider::class,
+        Luthfi\CrudGenerator\ServiceProvider::class,
 
         /*
          * Application Service Providers...

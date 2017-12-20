@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a2841fec3b280ed5b9c390aaa7459e6",
+    "content-hash": "d62d4a95faf97d0dea5d0ce7670505fe",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2211,6 +2211,109 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+            "name": "laravel/browser-kit-testing",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/browser-kit-testing.git",
+                "reference": "23f1a7eefcbca0797305b236600aa5426c9528f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/browser-kit-testing/zipball/23f1a7eefcbca0797305b236600aa5426c9528f2",
+                "reference": "23f1a7eefcbca0797305b236600aa5426c9528f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/css-selector": "~3.1",
+                "symfony/dom-crawler": "~3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\BrowserKitTesting\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Provides backwards compatibility for BrowserKit testing in Laravel 5.4.",
+            "keywords": [
+                "laravel",
+                "testing"
+            ],
+            "time": "2017-05-26T12:46:48+00:00"
+        },
+        {
+            "name": "luthfi/simple-crud-generator",
+            "version": "0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nafiesl/SimpleCrudGenerator.git",
+                "reference": "d1c79adcc5cc29d35e96e789708971cb8882b31f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/d1c79adcc5cc29d35e96e789708971cb8882b31f",
+                "reference": "d1c79adcc5cc29d35e96e789708971cb8882b31f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.3.* || 5.4.* || 5.5.*",
+                "laravel/browser-kit-testing": "^2.0",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Luthfi\\CrudGenerator\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Luthfi\\CrudGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nafies Luthfi",
+                    "email": "nafiesl@gmail.com"
+                }
+            ],
+            "description": "A simple CRUD generator for Laravel 5.3, 5.4, and 5.5.",
+            "keywords": [
+                "artisan-command",
+                "crud",
+                "crud-generator",
+                "laravel-package",
+                "tdd-workflow",
+                "testing"
+            ],
+            "time": "2017-12-15T02:47:46+00:00"
+        },
+        {
             "name": "mockery/mockery",
             "version": "0.9.9",
             "source": {
@@ -3437,6 +3540,62 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v3.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "dc847845c66fa68ad4522ed27e62b9b9dd12ab3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/dc847845c66fa68ad4522ed27e62b9b9dd12ab3b",
+                "reference": "dc847845c66fa68ad4522ed27e62b9b9dd12ab3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~2.8|~3.0|~4.0"
+            },
+            "suggest": {
+                "symfony/css-selector": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-12-14T19:40:10+00:00"
         },
         {
             "name": "symfony/yaml",
