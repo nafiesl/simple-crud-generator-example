@@ -6,6 +6,7 @@
 
 ### About
 This is laravel 5.4 application demo for [**Simple CRUD Generator**](https://packagist.org/packages/luthfi/simple-crud-generator) package usage.
+> This package will only works on **php >=7.0** if used on laravel 5.4 application.
 
 ### Usage Example
 Travis CI build result on generated Testing Classes by [Simple CRUD Generator](https://packagist.org/packages/luthfi/simple-crud-generator) package :
