@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.0
+
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer update --prefer-source --no-interaction --dev
+  - cp .env.example .env
+  - php artisan key:generate
+  - php artisan make:crud Vehicle
+  - php artisan make:crud Vehicles/Type --parent=Vehicles
+
+script:
+  - vendor/bin/phpunit
