@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34a47ae3f177ec69babcc4aaa646ee06",
+    "content-hash": "bc8b6b4fced936a79e6fc62673defad6",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2260,16 +2260,16 @@
         },
         {
             "name": "luthfi/simple-crud-generator",
-            "version": "dev-master",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nafiesl/SimpleCrudGenerator.git",
-                "reference": "f4245386fb7316b122e2da52722480d9548c1c5e"
+                "reference": "cac2849a69e6289dfcca556429723daa32db074c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/f4245386fb7316b122e2da52722480d9548c1c5e",
-                "reference": "f4245386fb7316b122e2da52722480d9548c1c5e",
+                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/cac2849a69e6289dfcca556429723daa32db074c",
+                "reference": "cac2849a69e6289dfcca556429723daa32db074c",
                 "shasum": ""
             },
             "require": {
@@ -2312,7 +2312,7 @@
                 "tdd-workflow",
                 "testing"
             ],
-            "time": "2018-05-24T13:42:47+00:00"
+            "time": "2018-03-14T23:37:16+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -3841,9 +3841,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "luthfi/simple-crud-generator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

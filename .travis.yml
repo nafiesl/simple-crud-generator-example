@@ -9,7 +9,6 @@ before_script:
   - cp .env.example .env
   - php artisan key:generate
   - php artisan make:crud Vehicle
-  - php artisan make:crud-api Vehicle
   - php artisan make:crud-simple Vehicles/Type --parent=Vehicles
 
 script:
