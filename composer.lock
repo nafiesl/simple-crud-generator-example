@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f857cdf2ddb12a4d3be0edf3c169bbcb",
+    "content-hash": "34a47ae3f177ec69babcc4aaa646ee06",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2260,22 +2260,22 @@
         },
         {
             "name": "luthfi/simple-crud-generator",
-            "version": "0.1.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nafiesl/SimpleCrudGenerator.git",
-                "reference": "d1c79adcc5cc29d35e96e789708971cb8882b31f"
+                "reference": "f4245386fb7316b122e2da52722480d9548c1c5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/d1c79adcc5cc29d35e96e789708971cb8882b31f",
-                "reference": "d1c79adcc5cc29d35e96e789708971cb8882b31f",
+                "url": "https://api.github.com/repos/nafiesl/SimpleCrudGenerator/zipball/f4245386fb7316b122e2da52722480d9548c1c5e",
+                "reference": "f4245386fb7316b122e2da52722480d9548c1c5e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "5.3.* || 5.4.* || 5.5.*",
-                "laravel/browser-kit-testing": "^2.0",
-                "php": ">=5.6.4"
+                "illuminate/support": "5.4.* || 5.5.* || 5.6.*",
+                "laravel/browser-kit-testing": "^2.0|| ^4.0",
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "orchestra/testbench": "~3.0"
@@ -2303,7 +2303,7 @@
                     "email": "nafiesl@gmail.com"
                 }
             ],
-            "description": "A simple CRUD generator for Laravel 5.3, 5.4, and 5.5.",
+            "description": "A simple CRUD generator for Laravel 5.4 and 5.5.",
             "keywords": [
                 "artisan-command",
                 "crud",
@@ -2312,7 +2312,7 @@
                 "tdd-workflow",
                 "testing"
             ],
-            "time": "2017-12-15T02:47:46+00:00"
+            "time": "2018-05-24T13:42:47+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -3841,7 +3841,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "luthfi/simple-crud-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
