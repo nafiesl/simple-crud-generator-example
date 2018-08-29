@@ -11,6 +11,8 @@ before_script:
   - php artisan make:crud Vehicle
   - php artisan make:crud-api Vehicle
   - php artisan make:crud-simple Vehicles/Type --parent=Vehicles
+  - php artisan make:crud Product --formfield
+  - php artisan make:crud-simple ProductType --formfield
 
 script:
   - vendor/bin/phpunit
