@@ -10,6 +10,7 @@ before_script:
   - php artisan key:generate
   - php artisan make:crud-simple Vehicles/Type --parent=Vehicles
   - php artisan make:crud Unit --form-requests
+  - php artisan make:crud-api Unit
 
 script:
   - vendor/bin/phpunit
